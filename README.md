@@ -2,4 +2,4 @@
 
 This repo contains some simple functions that I often find useful. 
 
-Testing is spotty at this point; use at your own risk.
+It's all poorly documented and testing is spotty at this point. Use at your own risk!
