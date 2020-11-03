@@ -4,6 +4,9 @@ import cftime
 
 import calendar
 
+import scipy.odr as odr
+from scipy import stats
+
 import numpy as np
 import xarray as xr
 
@@ -548,6 +551,8 @@ def mavg_periodic_ds(dset, n):
 
 
 class linreg_odr(object):
+    
+    
     """Perform Orthogonal distance regression"""
     def __init__(self, x, y, xerr=None, yerr=None):
         
